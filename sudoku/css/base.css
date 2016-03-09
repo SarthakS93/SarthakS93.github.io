@@ -1,0 +1,111 @@
+body {
+  background-color: rgba(205, 220, 57, 1);
+}
+
+#game {
+  width: 424px;
+  margin : 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 0;
+  border: 3px solid rgba(13, 174, 158, 1);
+}
+
+input{
+  height: 100px;
+  width: 106px;
+  flex: 0 0 100px;
+  margin: 0;
+  font-family: 'Arial';
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  border: 3px solid rgba(13, 174, 158, 1);
+}
+
+.one {
+	background-color: rgba(205, 23, 36, 1);
+  display: block;
+}
+
+.two {
+	background-color: rgba(255, 231, 23, 1);
+  display: block;
+}
+
+.three {
+	background-color: rgba(92, 69, 149, 1);
+  display: block;
+}
+
+.four {
+	background-color: rgba(52, 163, 0, 1);
+  display: block;
+}
+
+.fixed {
+  color: black;
+}
+
+button {
+    height: 60px;
+    width: 100px;
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    transition-duration: 0.4s;
+}
+
+#reset {
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid brown;
+}       
+
+#solve {
+    background-color: #008CBA;
+    color: white; 
+    border: 2px solid brown;
+}
+
+#check {
+    background-color: rgba(255, 152, 0, 1);
+    color: white; 
+    border: 2px solid brown;
+}
+
+#reset:hover, #solve:hover, #check:hover {
+    background-color: #f44336;
+    color: black;
+} 
+
+header {
+    display: flex;
+    width: 400px;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 15px auto;    
+}
+
+#t1, #t5, #t9, #t13 {
+  border-right: 3px solid rgba(139, 77, 0, 1);
+}
+
+#t2, #t6, #t10, #t14 {
+  border-left: 3px solid rgba(139, 77, 0, 1);
+}
+
+#t4, #t5, #t6, #t7 {
+  border-bottom: 3px solid rgba(139, 77, 0, 1);
+}
+
+#t8, #t9, #t10, #t11 {
+  border-top: 3px solid rgba(139, 77, 0, 1);
+}

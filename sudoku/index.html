@@ -1,0 +1,38 @@
+<html>
+    <head>
+       <title>Sudoku</title>
+       <link rel="stylesheet" type="text/css" href="css/base.css">
+       <script type="text/javascript" src="js/game.js"></script>
+    </head>
+    <body>
+        <header>
+            <button id="reset" type="button">RESET</button>
+            <button id="check" type="button">CHECK</button>
+            <button id="solve" type="button">SOLVE</button>
+        </header>
+        <main id="game">
+            <input type = 'text' id = 't0' class = 'one fixed' value = '1' disabled = 'true'>
+            <input type = 'text' id = 't1' class = 'one'>
+            <input type = 'text' id = 't2' class = 'two fixed' value = '3' disabled = 'true'>
+            <input type = 'text' id = 't3' class = 'two'>
+            <input type = 'text' id = 't4' class = 'one'>
+            <input type = 'text' id = 't5' class = 'one'>
+            <input type = 'text' id = 't6' class = 'two fixed' value = '2' disabled = 'true'>
+            <input type = 'text' id = 't7' class = 'two fixed' value = '1' disabled = 'true'>
+            <input type = 'text' id = 't8' class = 'three'>
+            <input type = 'text' id = 't9' class = 'three fixed' value = '1' disabled = 'true'>
+            <input type = 'text' id = 't10' class = 'four'>
+            <input type = 'text' id = 't11' class = 'four fixed' value = '2' disabled = 'true'>
+            <input type = 'text' id = 't12' class = 'three fixed' value = '2' disabled = 'true'>
+            <input type = 'text' id = 't13' class = 'three fixed' value = '4' disabled = 'true'>
+            <input type = 'text' id = 't14' class = 'four'>
+            <input type = 'text' id = 't15' class = 'four'>
+        </main>
+        <script type="text/javascript">
+            function onBodyLoad() {
+                Game.init();
+            }
+            window.addEventListener('load', onBodyLoad);
+        </script>
+    </body>
+</html>

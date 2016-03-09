@@ -6,3 +6,6 @@ Cheers!!
 TODO-
 Add resume to preview/download.
 Make contacting easier.
+
+*Update-
+Added sudoku game
